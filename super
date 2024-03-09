@@ -18,7 +18,7 @@ local args = {
     [9] = "Blue",
     [10] = game:GetService("Players").LocalPlayer.Character.RightHand,
     [11] = 0.1,
-    [12] = 1
+    [12] = 100
 }
 
 game:GetService("ReplicatedStorage").Events.bigball:FireServer(unpack(args))
@@ -41,7 +41,7 @@ local args = {
     [9] = "Blue",
     [10] = game:GetService("Players").LocalPlayer.Character.RightHand,
     [11] = 0.1,
-    [12] = 1
+    [12] = 100
 }
 
 game:GetService("ReplicatedStorage").Events.bigball:FireServer(unpack(args))
